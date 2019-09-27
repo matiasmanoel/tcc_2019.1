@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "titulo": "01 - TESTE",
+      "descricao": "Teste 01"
+    },
+    {
+      "titulo": "Testando Envio de Dados",
+      "descricao": "Envio de dados simples e estáticos para o 'banco' de dados criado em JSON",
+      "id": 2
+    },
+    {
+      "titulo": "Testando Envio de Dados",
+      "descricao": "Dados para editar - EDITADO",
+      "id": 3
+    }
+  ]
+}

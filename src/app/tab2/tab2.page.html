@@ -8,10 +8,10 @@
 </ion-header>
 
 <ion-content>
-  <ion-card>
+  <ion-card *ngFor="let p of posts">
     <ion-card-header>
       <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-      <ion-card-title>Card Title</ion-card-title>
+      <ion-card-title>{{ p.titulo }}</ion-card-title>
     </ion-card-header>
     <ion-item>
       <ion-icon name="pin" slot="start"></ion-icon>
@@ -21,8 +21,7 @@
       <ion-button fill="outline" slot="end">View</ion-button>
     </ion-item>
     <ion-card-content>
-      Keep close to Nature's heart... and break clear away, once in awhile,
-      and climb a mountain or spend a week in the woods. Wash your spirit clean.
+      {{ p.descricao }}
     </ion-card-content>
   </ion-card>
 

@@ -6,13 +6,23 @@ declare var google;
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
-  styleUrls: ['tab1.page.scss']
+  styleUrls: ['tab1.page.scss'],
+  preserveWhitespaces: true
+  // para permitir que quebras-de-linha formem espaços sem ter que usar comando de interpolação vazio "{{ ' ' }}"
 })
 export class Tab1Page {
   map: any;
 
   constructor(private geolocation: Geolocation) { }
 
+  titulo: any;
+  categoria: any;
+  data: any;
+  descricao: any;
+
+
+
+  //mapa
   ngOnInit() {
     this.geolocation.getCurrentPosition()
       .then((resp) => {

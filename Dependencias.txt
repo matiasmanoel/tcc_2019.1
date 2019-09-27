@@ -6,3 +6,9 @@ npm install @ionic-native/camera
 ionic cordova plugin add cordova-plugin-camera
 ionic cordova plugin add cordova-sqlite-storage
 npm install --save @ionic/storage
+
+(devo ter feito uns que n�o anotei, depois procurar no arquivo que fica salvo na pasta do projeto).
+
+npm i -g json-server
+
+plugin REST Client, poderia ser o Postman, so pra dar os comandos http e testar o "Banco" criado.
